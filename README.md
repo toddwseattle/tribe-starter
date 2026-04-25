@@ -1,3 +1,11 @@
+## CS394 2026 Tribe Setup
+
+- This fork has been set up for the CS394 multi-team client project. See [`AGENTS.md`](AGENTS.md) for the agent brief and [`docs/Home.md`](docs/Home.md) for the human-facing overview.
+- Before starting work: fill in the `ALL_CAPS` placeholders in `docs/tribe/` and `docs/agent/`. Run `grep -r '[A-Z_]\{4,\}' docs/ AGENTS.md CLAUDE.md` to find them all.
+- Read [`docs/harness.md`](docs/harness.md) to understand what guides and sensors your tribe has inherited from the template. Extend it as you add more.
+
+---
+
 # Vite + React + TypeScript Template Updated for 2026
 
 This starter combines React, TypeScript, Vite, Vitest, ESLint, and Prettier in a setup intended for Northwestern CS394 projects and similar coursework. The template now targets the 2026 major-version baseline verified in this repository on March 24, 2026.
