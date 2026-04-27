@@ -16,7 +16,7 @@ ADDITIONAL_MANUAL_VERIFICATION_ITEMS
 
 ```tsx
 // Query by role — resilient to text changes
-screen.getByRole('button', { name: /submit/i })
+screen.getByRole('button', { name: /submit/i });
 
 // userEvent over fireEvent
 const user = userEvent.setup();
@@ -30,7 +30,7 @@ ADDITIONAL_VITEST_PATTERNS
 
 ## TDD Policy
 
-TRIBE_TDD_POLICY — suggested baseline: write the test for the AC first, watch it fail, then implement.
+TRIBE_TDD_POLICY — suggested baseline: write the test for the Acceptance Criteria first, watch it fail, then implement.
 
 ## Test Naming
 
