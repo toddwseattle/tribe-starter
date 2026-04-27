@@ -8,7 +8,7 @@ Welcome to the TRIBE_NAME tribe repository for Northwestern CS394 2026. We are b
 
 | Folder | Primary reader | What's in it |
 |---|---|---|
-| [`docs/tribe/`](tribe/) | Humans on the tribe | Meeting norms, practices, client info, guild membership |
+| [`docs/tribe/Home.md`](tribe/Home.md) | Humans on the tribe | Meeting norms, practices, client info, guild membership |
 | [`docs/agent/`](agent/) | Coding agents (and curious humans) | Architecture, design, testing, data model, specs, ADRs |
 
 **Rule of thumb:** if its primary reader is a person navigating the project, it goes in `tribe/`. If its primary reader is a model doing a task, it goes in `agent/`. When in doubt, ask whoever owns development practices.

@@ -1,10 +1,8 @@
 # Architectural Decision Records
 
-This folder contains ADRs for TRIBE_NAME. Each ADR records a significant architectural or process decision: what was decided, why, and what the consequences are.
+ADRs for TRIBE_NAME record significant architectural decisions: what was decided, why, and consequences. ADRs are numbered sequentially and never edited once Accepted. To revise an accepted decision, create a new ADR and mark the old one "Superseded by NNNN".
 
-ADRs are numbered sequentially and never edited once Accepted. To change an accepted decision, create a new ADR and update the old one's status to "Superseded by NNNN".
-
-Use `docs/agent/decisions/_template.md` when filing a new ADR.
+Use `docs/agent/decisions/_template.md` for new ADRs.
 
 ## Index
 
