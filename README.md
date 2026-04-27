@@ -5,13 +5,21 @@ This repository is the starting point for the second (multi-team) client project
 1. **A Vite + React + TypeScript app template** — the working codebase your tribe will build on.
 2. **A docs-driven agent harness** — a structured `docs/` folder that coordinates both humans and AI coding agents across the tribe.
 
+### Using this repo
+
+The best way to use this is to use the "Use this template" button or use a tool like degit. To use degit:
+
+```bash
+npx degit https://github.com/toddwseattle/tribe-starter#main your-repo-name
+```
+
 ### What's in `docs/`
 
-| Folder | Primary reader | Purpose |
-|---|---|---|
-| [`docs/tribe/`](docs/tribe/) | Humans | Team practices, client info, branching/naming conventions, backlog |
-| [`docs/agent/`](docs/agent/) | Coding agents (and curious humans) | Architecture, design, testing, data model, story specs, ADRs |
-| [`docs/harness.md`](docs/harness.md) | Everyone | Registry of every feedforward guide and feedback sensor in the repo |
+| Folder                               | Primary reader                     | Purpose                                                             |
+| ------------------------------------ | ---------------------------------- | ------------------------------------------------------------------- |
+| [`docs/tribe/`](docs/tribe/)         | Humans                             | Team practices, client info, branching/naming conventions, backlog  |
+| [`docs/agent/`](docs/agent/)         | Coding agents (and curious humans) | Architecture, design, testing, data model, story specs, ADRs        |
+| [`docs/harness.md`](docs/harness.md) | Everyone                           | Registry of every feedforward guide and feedback sensor in the repo |
 
 **Rule of thumb:** if its primary reader is a person navigating the project, it goes in `docs/tribe/`. If its primary reader is a model doing a task, it goes in `docs/agent/`. When in doubt, ask the working group that owns development practices.
 
@@ -19,6 +27,7 @@ This repository is the starting point for the second (multi-team) client project
 
 - **[AGENTS.md](AGENTS.md)** — canonical brief for any AI coding agent. Read this before doing anything else.
 - **[CLAUDE.md](CLAUDE.md)** — Claude Code-specific behavior layered on top of the agent brief.
+- **[copilot-instructions.md](copilot-instructions.md)** — GitHub Copilot-specific instructions and tips.
 
 ### Getting started with this template
 
@@ -66,6 +75,7 @@ This template uses [Vitest](https://vitest.dev/) with [React Testing Library](ht
 Tests live alongside source files (e.g., `src/app.test.tsx` tests `src/App.tsx`).
 
 **Common queries (priority order):**
+
 1. `getByRole` — preferred; encourages accessible markup
 2. `getByLabelText`
 3. `getByPlaceholderText`
