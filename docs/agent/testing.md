@@ -26,11 +26,7 @@ await user.click(screen.getByRole('button', { name: /submit/i }));
 await waitFor(() => expect(screen.getByText('Saved')).toBeInTheDocument());
 ```
 
-ADDITIONAL_VITEST_PATTERNS
-
-## TDD Policy
-
-TRIBE_TDD_POLICY — suggested baseline: write the test for the Acceptance Criteria first, watch it fail, then implement.
+A
 
 ## Test Naming
 

@@ -8,31 +8,34 @@ TRIBE_NAME builds a React SPA for CLIENT_NAME. Firebase Auth handles identity; C
 
 ## Containers
 
-| Container | Role |
-|---|---|
+| Container        | Role                                       |
+| ---------------- | ------------------------------------------ |
 | React SPA (Vite) | Application UI, hosted on Firebase Hosting |
-| Firebase Auth | Sign-in/sign-up via SDK in SPA |
-| Cloud Firestore | Document DB via Firebase Web SDK |
+| Firebase Auth    | Sign-in/sign-up via SDK in SPA             |
+| Cloud Firestore  | Document DB via Firebase Web SDK           |
 
 ## ADRs
 
-| # | Title | Status |
-|---|---|---|
+| #                                                    | Title                      | Status   |
+| ---------------------------------------------------- | -------------------------- | -------- |
 | [0001](decisions/0001-use-this-harness-structure.md) | Use this harness structure | Accepted |
-| NNNN | DECISION_TITLE | STATUS |
+| NNNN                                                 | DECISION_TITLE             | STATUS   |
 
 ## Team Ownership
 
-| Team | Owned path | Notes |
+Describe team ownership of the codebase here, or link to a separate doc if more appropriate. Include any cross-team dependencies and how to navigate them. e.g.
+
+<!-- | Team | Owned path | Notes |
 |---|---|---|
 | Red | `src/TEAM_RED_SLICE/` | TEAM_RED_OWNERSHIP_NOTES |
 | Orange | `src/TEAM_ORANGE_SLICE/` | TEAM_ORANGE_OWNERSHIP_NOTES |
 | Blue | `src/TEAM_BLUE_SLICE/` | TEAM_BLUE_OWNERSHIP_NOTES |
 | Yellow | `src/TEAM_YELLOW_SLICE/` | TEAM_YELLOW_OWNERSHIP_NOTES |
 | Shared | `src/shared/` | WORKING_GROUP_ARCH_DESIGN reviews changes |
+ -->
 
 Until the ownership map is filled in, treat all of `src/` as shared; any structural change needs guild approval.
 
 ## Cross-Team Dependencies
 
-SHARED_DEPENDENCIES_DESCRIPTION
+Describe any shared utilities, components, or contracts here, along with who owns them and how to get approval for changes. e.g. a firebase hook.
