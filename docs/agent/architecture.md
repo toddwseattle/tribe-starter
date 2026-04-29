@@ -6,14 +6,6 @@ Owned by **WORKING_GROUP_ARCH_DESIGN**. Read before touching more than one file 
 
 TRIBE_NAME builds a React SPA for CLIENT_NAME. Firebase Auth handles identity; Cloud Firestore handles persistence. No backend services in scope for 2026 — all logic runs client-side except Firestore security rules.
 
-## Containers
-
-| Container        | Role                                       |
-| ---------------- | ------------------------------------------ |
-| React SPA (Vite) | Application UI, hosted on Firebase Hosting |
-| Firebase Auth    | Sign-in/sign-up via SDK in SPA             |
-| Cloud Firestore  | Document DB via Firebase Web SDK           |
-
 ## ADRs
 
 | #                                                    | Title                      | Status   |
@@ -21,9 +13,13 @@ TRIBE_NAME builds a React SPA for CLIENT_NAME. Firebase Auth handles identity; C
 | [0001](decisions/0001-use-this-harness-structure.md) | Use this harness structure | Accepted |
 | NNNN                                                 | DECISION_TITLE             | STATUS   |
 
+## File
+
+Link back to the [Project Structure](/docs//tribe/Project-Structure.md) doc. If there are variations or autonomy per team/guild describe and/or link here.
+
 ## Team Ownership
 
-Describe team ownership of the codebase here, or link to a separate doc if more appropriate. Include any cross-team dependencies and how to navigate them. e.g.
+Describe team ownership of the codebase here, or link to a separate doc if more appropriate. Describe anything about the structure of the files in the codebase. Include any cross-team dependencies and how to navigate them.
 
 <!-- | Team | Owned path | Notes |
 |---|---|---|
